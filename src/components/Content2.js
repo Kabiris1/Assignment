@@ -4,25 +4,23 @@ function Content2() {
   return (
     <div className="container mt-5 pt-5">
       <h2 className="text-center">Product and Service</h2>
-      <div className="row pt-5 m-5">
-        <div className="col-md-4">
+      <div className="d-flex flex-lg-row flex-column flex-wrap pt-5 m-1">
+        <div className="fb-33">
           <div>
             <img src="./WEB ASSETS/product-description 1.png" alt="img" />
           </div>
-          <div className="pt-3 ">
+          <div className="pt-3">
             <h3 className="text-danger">Our Product</h3>
           </div>
-          <div>
-            <p>
-              Our product is made on the base of our team’s careful research and
-              analyses, ranging from internet based application.
-            </p>
-          </div>
+          <p>
+            Our product is made on the base of our team’s careful research and
+            analyses, ranging from internet based application.
+          </p>
           <button type="button" className="btn btn-danger ">
             Read More
           </button>
         </div>
-        <div className="col-md-4">
+        <div className="fb-33">
           <div>
             <img src="./WEB ASSETS/product-description 2.png" alt="img" />
           </div>
@@ -40,7 +38,7 @@ function Content2() {
             Read More
           </button>
         </div>
-        <div className="col-md-4">
+        <div className="fb-33">
           <div>
             <img src="./WEB ASSETS/product-description 3.png" alt="img" />
           </div>

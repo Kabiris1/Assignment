@@ -10,16 +10,16 @@ function content3() {
           alt=""
           height={20}
           width={150}
+          className="img-fluid"
         />
       </div>
-      <div className="row ">
-        <div className=" pt-5 mt-4 col-md-3">
+      <div className="d-flex justify-content-lg-between justify-content-center w-100 align-items-center flex-wrap mt-5">
+        <div >
           <div
-            className=" shadow p-3 mb-5 bg-body rounded"
-            style={{ width: "18rem" }}
+            className=" shadow p-3  bg-body rounded card-style"
           >
             <img
-              className="card-img rounded-circle"
+              className="rounded-circle card-img img-fluid"
               src="./WEB ASSETS/face01.jpg"
               alt="cardImg"
               height={250}
@@ -56,13 +56,12 @@ function content3() {
             </div>
           </div>
         </div>
-        <div className=" pt-5 mt-4 col-md-3">
+        <div >
           <div
-            className=" shadow p-3 mb-5 bg-body rounded"
-            style={{ width: "18rem" }}
+            className=" shadow p-3  bg-body rounded card-style"
           >
             <img
-              className="card-img rounded-circle"
+              className="card-img rounded-circle img-fluid"
               src="./WEB ASSETS/face02.jpg"
               alt="cardImg"
               height={250}
@@ -94,21 +93,23 @@ function content3() {
                   alt=""
                   height={30}
                   width={30}
+
                 />
               </a>
             </div>
           </div>
         </div>
-        <div className=" pt-5 mt-4 col-md-3">
+        <div >
           <div
-            className=" shadow p-3 mb-5 bg-body rounded"
-            style={{ width: "18rem" }}
+            className=" shadow p-3  bg-body rounded card-style"
+
           >
             <img
-              className="card-img rounded-circle"
+              className="card-img img-fluid rounded-circle"
               src="./WEB ASSETS/face03.jpg"
               alt="cardImg"
               height={250}
+
             />
             <div className="card-body text-center">
               <h4 className="text-danger">System Analyst</h4>
@@ -142,13 +143,12 @@ function content3() {
             </div>
           </div>
         </div>
-        <div className=" pt-5 mt-4 col-md-3">
+        <div >
           <div
-            className=" shadow p-3 mb-5 bg-body rounded"
-            style={{ width: "18rem" }}
+            className=" shadow p-3  bg-body rounded card-style"
           >
             <img
-              className="card-img rounded-circle"
+              className="card-img img-fluid rounded-circle"
               src="./WEB ASSETS/face04.jpg"
               alt="cardImg"
               height={250}
@@ -186,7 +186,7 @@ function content3() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

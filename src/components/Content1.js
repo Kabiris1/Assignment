@@ -4,12 +4,11 @@ function Content1() {
   return (
     <div className="bg-light mt-5 pt-5">
       <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <img src="./WEB ASSETS/pana-1.svg" alt="" />
+        <div className="d-flex justify-content-between align-items-center flex-wrap flex-column flex-lg-row flex-xl-row">
+          <div className="fb-50">
+            <img className="img-fluid" src="./WEB ASSETS/pana-1.svg" alt="" />
           </div>
-
-          <div className="col-6 pt-5">
+          <div className="pt-5 fb-50">
             <h2>
               Welcome to{" "}
               <span className="text-danger">
